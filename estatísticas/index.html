@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard de Coleção de Jogos</title>
+    
+
+    
+    <!-- 2. CSS Customizado -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+
+
+    <header class="site-header" id="site-header">
+        <div class="header-inner">
+            <div class="profile">
+            <!-- IMAGEM DE PERFIL -->
+                <img src="https://avatars.akamai.steamstatic.com/b4cc0ef0cbf52a1df7f168b91bc82f503df37ab1_full.jpg" alt="Foto de perfil de Raí Gomes" class="profile-img" id="profile-img">
+                    <div class="profile-text">
+                    <h1 class="profile-name">MayTTi</h1>
+                </div>
+            </div>
+
+        <nav class="main-nav" aria-label="Navegação principal">
+            <a href="/maytti/home/index.html" class="nav-link" data-target="home"><span>Home</span></a>
+            <a href="/maytti/favs/index.html" class="nav-link" data-target="favoritos"><span>Favoritos</span></a>
+            <a href="/maytti/lista/index.html" class="nav-link" data-target="jogos"><span>Lista de Jogos</span></a>
+            <a href="/maytti/estatísticas/index.html" class="nav-link" data-target="estatisticas"></i></i><span>Estatísticas</span></a>
+        </nav>
+
+    </header>
+
+        <!-- The video -->
+<video autoplay muted loop id="myVideo">
+  <source src="../YTDown.com_YouTube_Outer-Wilds-Desktop-Wallpaper-for-Wallpa_Media_ReNcgGzz5fQ_001_1080p.mp4" type="video/mp4">
+</video>
+
+
+        <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Chart.js CDN for interactive charts -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+
+    <!-- 1. Configuração do Tailwind -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary': '#4f46e5', // Indigo 600
+                        'secondary': '#10b981', // Emerald 500
+                        'dark-bg': '#1f2937', // Gray 800
+                        'card-bg': '#374151', // Gray 700
+                    }
+                },
+                fontFamily: {
+                    sans: ['Inter', 'sans-serif'],
+                },
+            }
+        }
+    </script>
+
+
+
+    <!-- Content Container -->
+    <div class="max-w-6xl mx-auto bg-dark-bg rounded-xl shadow-2xl p-6">
+        
+        <!-- Indicador de Carregamento -->
+        <div id="loading-indicator" class="flex justify-center items-center h-40">
+            <div class="loading-spinner"></div>
+            <p class="ml-4 text-primary">Carregando dados...</p>
+        </div>
+
+        <!-- 1. Estatísticas Gerais -->
+        <div id="content-geral" class="content-section hidden pt-4 mb-10">
+            <h2 class="text-2xl font-bold mb-6 text-white border-b border-gray-600 pb-3">Estatísticas Gerais</h2>
+            <div id="stats-container"
+     class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 w-full">
+</div>
+
+        </div>
+
+        <!-- 2. Gráficos Interativos -->
+        <div id="content-graficos" class="content-section hidden pt-4">
+            <h2 class="text-2xl font-bold mb-6 text-white border-b border-gray-600 pb-3">Gráficos Interativos</h2>
+
+            <!-- Gráfico 1: Ano de Lançamento -->
+            <div class="bg-card-bg rounded-lg p-6 mb-8 data-card">
+                <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
+                    <h3 class="text-xl font-semibold text-white mb-2 md:mb-0">Jogos por Ano de Lançamento</h3>
+                    <div class="flex items-center space-x-3">
+                        <label for="select-lancamento" class="text-gray-300">Métrica:</label>
+                        <select id="select-lancamento" class="bg-gray-600 text-white rounded-md p-2 focus:ring-primary focus:border-primary border-transparent">
+                            <option value="count">Quantidade de Jogos</option>
+                            <option value="avg_nota">Nota Média</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="h-64 md:h-96">
+                    <canvas id="chartLancamento"></canvas>
+                </div>
+            </div>
+            
+            <!-- Gráfico 2: Ano Zerado -->
+            <div class="bg-card-bg rounded-lg p-6 mb-8 data-card">
+                <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
+                    <h3 class="text-xl font-semibold text-white mb-2 md:mb-0">Jogos Zerados por Ano</h3>
+                    <div class="flex items-center space-x-3">
+                        <label for="select-zerado" class="text-gray-300">Métrica:</label>
+                        <select id="select-zerado" class="bg-gray-600 text-white rounded-md p-2 focus:ring-primary focus:border-primary border-transparent">
+                            <option value="count">Quantidade de Jogos</option>
+                            <option value="avg_nota">Nota Média</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="h-64 md:h-96">
+                    <canvas id="chartZerado"></canvas>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <!-- Gráfico 3: Distribuição de Notas -->
+                <div class="bg-card-bg rounded-lg p-6 data-card">
+                    <h3 class="text-xl font-semibold text-white mb-4">Distribuição de Notas</h3>
+                    <div class="h-64 md:h-80">
+                        <canvas id="chartNotas"></canvas>
+                    </div>
+                </div>
+
+                <!-- Gráfico 4: Gêneros Mais Jogados -->
+<div class="bg-card-bg rounded-lg p-6 data-card">
+
+    <!-- Cabeçalho do card com título à esquerda e seletor à direita -->
+    <div class="flex justify-between items-center mb-4">
+        <h3 class="text-xl font-semibold text-white">Jogos por Gênero</h3>
+
+        <div class="flex items-center gap-2">
+            <label for="genreLimit" class="text-gray-300">Mostrar:</label>
+            <select id="genreLimit" class="bg-gray-600 text-white rounded-md p-2 
+                focus:ring-primary focus:border-primary border-transparent">
+                <option value="10">Top 10</option>
+                <option value="20">Top 20</option>
+                <option value="all">Todos</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="h-64 md:h-80">
+        <canvas id="chartGeneros"></canvas>
+    </div>
+
+</div>
+
+            </div>
+            
+
+                        <!-- Linha 4: Distribuições (Roscas) - 3 Colunas -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-8">
+                <!-- Novo: Status -->
+<div class="bg-card-bg rounded-lg p-6 data-card min-h-[420px]">
+
+    <h3 class="text-xl font-semibold text-white mb-4">Por Status</h3>
+
+    <div class="h-64 md:h-80">
+<canvas id="chartStatus" class="w-full h-full"></canvas>
+</canvas>
+
+</div>
+</div>
+
+
+                <!-- Novo: Plataforma -->
+<div class="bg-card-bg rounded-lg p-6 data-card min-h-[420px]">
+
+
+    <div class="flex justify-between items-center mb-4">
+        <h3 class="text-xl font-semibold text-white">Jogos por Plataforma</h3>
+
+        <div class="flex items-center gap-2">
+            <label for="platformLimit" class="text-gray-300">Mostrar:</label>
+            <select id="platformLimit" class="bg-gray-600 text-white rounded-md p-2 
+                focus:ring-primary focus:border-primary border-transparent">
+                <option value="10">Top 10</option>
+                <option value="20">Top 20</option>
+                <option value="all">Todos</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="h-64 md:h-80">
+        <canvas id="chartPlatform"></canvas>
+    </div>
+
+</div>
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+    
+
+
+    <!-- 3. Código JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>

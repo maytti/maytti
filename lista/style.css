@@ -1,0 +1,609 @@
+/* Variáveis para fácil ajuste de VIBE */
+:root {
+    --bg-color: #000000; /* cor sólida no plano de fundo (APENAS SE A IMAGEM NÃO CARREGAR) */
+    --text-color: #ffffff; /* cor do texto (MUDAR ISSO NÃO ALTERA NADA (??)) */
+    --list-bg-color: #262825; /* Fundo da lista (um pouco mais claro que o bg) */
+    --hover-color: #313336; /* Fundo ao passar o mouse (MUDAR ISSO NÃO ALTERA NADA (??)) */
+    --accent-color: #4a90e2; /* Cor de destaque principal (O AZUL DOS ÍCONES) */
+
+    --glass-border: rgba(255,255,255,0.08); /* Borda dos cards dos links  */
+    --glass-bg: linear-gradient(180deg, rgba(20, 20, 20, 0.6), rgba(20, 20, 20, 0.8)); /* Cor interna dos cards dos links  */
+    --header-height: 86px;
+}
+
+* { /* (EM GERAL EU NÃO SEI O QUE ISSO FAZ) */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif; /* FONTE PRINCIPAL */
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    padding: 0 20px;
+    min-height: 100vh;
+
+
+    /* BACKGROUND */
+    background-image:
+        linear-gradient(rgba(10, 10, 10, 1), rgba(10, 10, 10, 0.75)),
+        url('https://images.steamusercontent.com/ugc/2473117766786086501/54E9E55A687583D29D836837D73D220CF24DA0E7/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+           /*2. HEADER ///////////////////////////////////////////*/
+           /*2. HEADER ///////////////////////////////////////////*/
+           /*2. HEADER ///////////////////////////////////////////*/
+
+header {
+    max-width: 1200px; /* LARGURA DA HEADER */
+    margin: 0 auto;
+    margin-top: 25px; /* ESPAÇO ENTRE A HEADER E O TOPO DA PÁGINA */
+    margin-bottom: 40px; /* ESPAÇO ENTRE A HEADER E O CONTEÚDO DA PÁGINA */
+    border-bottom: 2px solid var(--hover-color);
+}
+
+.site-header {
+    position: relative;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 12px; /* Distância entre o conteúdo da header e as suas bordas */
+    background: linear-gradient(180deg, rgba(0,0,0,0.06), rgba(0,0,0,0.32));
+
+    border: 1px solid rgba(255,255,255,0.03);
+    border-radius: 10px;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+
+    color: var(--text-color);
+
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+
+    overflow: hidden;
+}
+
+
+.header-inner {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.profile {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.profile-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    object-fit: cover;
+
+    border: 1px solid rgba(255,255,255,0.04);
+    box-shadow: 0 6px 18px rgba(7,7,10,0.35);
+}
+
+.profile-name-header { /* REFERENTE AO TEXTO "HI GOMES" */
+    margin: 0;
+    font-size: 30px;  /* TAMANHO */
+    font-weight: 600; /* ESPERSSURA */
+    color: white; /* COR*/
+    padding-left: 10px; /* DISTÃNCIA DA IMAGEM" */
+}
+
+.main-nav {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-link {
+        font-family: sans-serif;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    padding: 7px 10px;
+    border-radius: 10px;
+
+    font-size: 13px; /* TAMANHO DOS TEXTOS DA NAVEGAÇÃO */
+    color: #E6E8EA; /* COR DOS TEXTOS DE NAVEGAÇÃO */
+    text-decoration: none;
+
+    background: transparent;
+    border: 1px solid transparent;
+
+    transition: all 160ms ease;
+}
+
+
+.nav-link i {
+    font-size: 13px;
+}
+
+
+.nav-link span {
+    display: inline-block;
+}
+
+
+.nav-link:hover {
+    background-color: rgba(74,144,226,0.08);
+    border-color: rgba(74,144,226,0.12);
+
+    background: rgba(255,255,255,0.02);
+    box-shadow: 0 10px 24px rgba(2,6,23,0.45);
+}
+
+
+.nav-link.active {
+    background: linear-gradient(90deg, rgba(117,79,171,0.14), rgba(61,119,145,0.10));
+    border-color: rgba(255,255,255,0.04);
+    color: #FFFFFF;
+    transform: none;
+}
+           /*2. LISTA ///////////////////////////////////////////*/
+           /*2. LISTA ///////////////////////////////////////////*/
+           /*2. LISTA ///////////////////////////////////////////*/
+
+/* Exemplo no style.css: Garante que o cabeçalho se alinhe com o wrapper principal */
+
+
+/* --- Container da Lista --- */
+
+.game-list-container {
+    background-color: rgba(20, 20, 20, 0.6);
+    border: 1px solid var(--glass-border);
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    max-width: 1000px;
+    overflow: hidden;
+    margin: 0px; /* É A DISTANCIA DA BORDA DA LISTA ATÈ AS OUTRAS COISAS */
+    padding: 0px; /* É A DISTANCIA DAS BORDAS ATÉ O CONTEÚDO COMEÇAR */
+    flex-grow: 1; /* Faz a lista ocupar o espaço restante */
+}
+
+
+.list-header, .game-row {
+    display: grid;
+    /* Define o layout das colunas: Ícone/Título (peso maior), Nota, Ano, Progresso */
+    grid-template-columns: 70px 1fr 100px 80px 100px;
+    padding: 10px 5px 10px 5px;
+    align-items: center;
+    border-bottom: 1px solid var(--hover-color);
+    
+}
+
+/* Centraliza o texto nas colunas numéricas (HEADER) */
+.list-header .col-icon,
+.list-header .col-score,
+.list-header .col-year,
+.list-header .col-dif {
+    text-align: center;
+}
+
+/* Centraliza o texto nas colunas numéricas (LINHAS DE JOGOS) */
+.game-row .col-icon,
+.game-row .col-score,
+.game-row .col-year,
+.game-row .col-dif {
+    /* Alinha o texto das colunas para os dados */
+    text-align: center;
+}
+
+/* Ajuste específico para o ícone, se necessário, para garantir que a imagem esteja centralizada */
+.col-icon {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente o ícone */
+    align-items: center;
+}
+
+.list-header {
+    background-color: rgba(0, 0, 0, 0.9);
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #ffffff;
+    
+}
+
+/* Linha de Jogo (Interativa) */
+.game-row {
+    cursor: pointer;
+    transition: background-color 0.2s;
+    
+}
+
+.game-row:hover {
+    background-color: var(--hover-color);
+}
+
+/* Colunas Específicas */
+.col-icon img {
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+/* --- Review (Expansão) --- */
+.review-content {
+    /* Inicialmente escondida */
+    display: none;
+    grid-column: 1 / -1; /* Ocupa todas as colunas */
+    padding: 20px 15px;
+    background-color: rgba(20, 20, 20, 0.6); /* Fundo mais escuro para a expansão */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    
+}
+
+.review-content.show {
+    display: block;
+}
+
+/* NOVO: Wrapper para a lista e a capa */
+.game-list-wrapper {
+    display: flex; /* Para alinhar a capa e a lista lado a lado */
+    gap: 20px; /* Espaço entre a capa e a lista */
+    max-width: 1200px; /* Aumenta a largura total se necessário */
+    margin: 0 auto; /* Centraliza o wrapper */
+    position: relative; /* Importante para o posicionamento da capa */
+    align-items: flex-start; /* Alinha os itens no topo */
+}
+
+
+/* --- Game Cover Preview (Hover) --- */
+.game-cover-preview {
+    /* REMOVA: position: fixed; left: 20px; top: 50%; transform: translateY(-50%); */
+    position: absolute; /* Agora é absoluto em relação ao game-list-wrapper */
+    left: -280px; /* Posição à esquerda, 20px de margem + 200px de largura da capa */
+    width: 180px; /* Largura da capa */
+    height: 250px; /* Altura da capa */
+    background-color: var(--list-bg-color);
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 100;
+    pointer-events: none;
+    border: 1px solid black;
+    transition: opacity 0.15s ease, transform 0.15s ease;
+    transform: translateY(0); /* Mantém centralização vertical */
+}
+
+.game-cover-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.game-cover-preview.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Estilo para o container de todas as listas */
+.list-sections-container {
+    flex-grow: 1; /* Ocupa o espaço principal ao lado da capa de preview */
+}
+
+/* Estilo para cada seção de status */
+.status-section {
+    margin-bottom: 40px; /* Espaço entre as diferentes listas de status */
+    padding-left: 5px;
+}
+
+.status-section h2 {
+    color: var(--text-color);
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    border-bottom: 2px solid var(--accent-color);
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-left: 0px;
+    
+}
+
+/* --- Container da Lista (ajustes) --- */
+
+
+/* Estilo para destacar os valores de Nota, Ano e Progresso */
+.data-highlight {
+    display: inline-block; /* Permite que o background se ajuste ao conteúdo */
+    padding: 4px 8px; /* Espaçamento interno */
+    border-radius: 6px; /* Bordas arredondadas */
+    font-weight: bold; /* Deixa o texto em negrito */
+    background-color: rgba(0, 0, 0, 0.9); /* Usa a cor de fundo mais clara (como o cabeçalho) */
+    color: var(--text-color);
+    min-width: 40px; /* Garante uma largura mínima para padronização */
+    text-align: center; /* Centraliza o texto dentro do bloco */
+}
+
+/* Ajuste para remover o padding das colunas da grade (grid)
+   e centralizar o bloco 'data-highlight' */
+.game-row .col-score,
+.game-row .col-year,
+.game-row .col-dif {
+    display: flex; /* Transforma a coluna em flexbox */
+    justify-content: center; /* Centraliza horizontalmente o bloco de destaque */
+    align-items: center; /* Centraliza verticalmente */
+    padding: 5px 0; /* Remove padding lateral desnecessário se estiver atrapalhando */
+}
+
+
+/* --- Estilos para a Área de Filtro --- */
+.filter-area {
+    max-width: 1200px;
+    margin: 0 auto 30px auto;
+    padding: 0 5px; /* Adiciona padding lateral para alinhar com o h2 */
+    
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px px;
+    border-radius: 8px;
+    border: 1px solid var(--hover-color);
+    background-color: rgba(20, 20, 20, 0.6);
+    color: var(--text-color);
+    font-size: 1em;
+    transition: border-color 0.2s;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: var(--accent-color);
+}
+
+/* NOVO: Classe para esconder elementos vazios */
+.hidden {
+    display: none !important;
+}
+
+/* --- LAYOUT PRINCIPAL (Sidebar + Listas) --- */
+.main-content-wrapper {
+    max-width: 1200px; /* Largura máxima do seu conteúdo */
+    margin: 30px auto;
+    padding: 0 20px;
+    display: flex; /* Habilita layout em coluna */
+    gap: 30px; /* Espaço entre a sidebar e a lista */
+    align-items: flex-start; /* Garante que tudo comece no topo */
+    
+}
+
+/* --- COLUNA ESQUERDA (SIDEBAR) --- */
+.sidebar-filters {
+    width: 250px; /* Largura fixa para a barra de filtros */
+    flex-shrink: 0; /* Impede que a sidebar diminua */
+    position: sticky; /* Tenta fixar no topo ao rolar */
+    top: 20px; /* Distância do topo ao fixar */
+    
+}
+
+/* --- COLUNA DIREITA (LISTAS) --- */
+.list-main-area {
+    flex-grow: 1; /* Ocupa todo o espaço restante */
+    min-width: 600px; /* Evita que a lista fique muito estreita */
+}
+
+/* --- Estilos para a Área de Pesquisa/Filtro --- */
+.filter-area {
+    padding: 10px; /* Padding interno da sidebar */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    margin: 0;
+    background: rgba(0, 0, 0, 0.9); /* degradê preto sutil -> mais escuro */
+  border: 1px solid rgba(255,255,255,0.04);   /* borda sutil */
+  border-radius: 10px;
+  padding: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+  color: var(--text-color);
+  overflow: hidden;
+  backdrop-filter: blur(6px); /* desfoca o fundo por trás (opcional) */
+  -webkit-backdrop-filter: blur(6px);
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px 15px;
+    /* ... (mantenha os estilos de cor/borda/foco existentes) ... */
+    margin-bottom: 10px; /* Espaço abaixo da barra de pesquisa */
+}
+
+/* --- Ajuste da Capa (GAME COVER PREVIEW) --- */
+/* A capa de preview precisa ser ajustada, pois agora ela é relativa a .game-list-wrapper, 
+que está dentro de .list-main-area. 
+Você precisa reajustar o seu left para que ela apareça na lateral da sidebar. */
+
+/* Exemplo de ajuste (se a capa for position: absolute em relação ao game-list-wrapper) */
+.game-cover-preview {
+    /* ... (outros estilos) ... */
+    /* Ajuste left para posicioná-la no espaço entre a sidebar e a lista */
+    left: -280px; /* 250px da sidebar + 30px de gap */
+    top: 0; /* O topo será controlado pelo JS */
+}
+
+/* --- Estilos para Botões de Filtro (Toggle) --- */
+.filter-toggle {
+    display: block; /* Ocupa a largura total da sidebar */
+    width: 100%;
+    padding: 10px 15px;
+    margin-top: 10px; /* Espaço entre o campo de pesquisa e o botão */
+    border-radius: 8px;
+    border: 1px solid var(--hover-color);
+    background-color: var(--list-bg-color);
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: left;
+    transition: all 0.2s;
+    align-items: center;
+  padding: 10px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--text-color);
+  background: rgba(20, 20, 20, 0.8);
+  border: 1px solid rgba(255,255,255,0.03);
+  transition: transform .12s ease, box-shadow .12s ease, background .12s ease;
+      display: block;
+    width: 100%;
+    padding: 10px 15px;
+    margin-top: 10px; 
+    border-radius: 8px;
+    border: 1px solid var(--hover-color);
+    
+    /* CRUCIAIS PARA O DARK MODE E PARA TIRAR O ESTILO PADRÃO: */
+    color: var(--text-color); /* Texto branco */
+    appearance: none; /* Remove a seta padrão do navegador */
+    
+    /* Se você tiver um ícone de seta customizado no background-image, ele também deve estar aqui */
+    /* Exemplo: background-image: url('data:image/svg+xml;...'); */
+}
+
+
+/* Estilo para quando o filtro 100% estiver ATIVO */
+#toggle-100-percent[data-active="1"] {
+    background-color: rgba(175, 175, 175, 0.2); /* Cor de destaque para indicar que está ativo */
+    color: white; /* Garante que o texto seja legível na cor de destaque */
+    border-color: var(--accent-color);
+    box-shadow: 0 10px 24px rgba(2,6,23,0.45);
+  border-color: black;
+  
+}
+
+/* --- Estilo para Selects de Filtro --- */
+.filter-select {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    margin-top: 10px; /* Espaço entre o botão 100% e o select */
+    border-radius: 8px;
+    border: 1px solid var(--hover-color);
+    background-color: var(--list-bg-color);
+    color: var(--text-color);
+    font-size: 1em;
+    cursor: pointer;
+    appearance: none; /* Remove o estilo padrão do SO */
+    background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" width="292.4" height="292.4" viewBox="0 0 292.4 292.4"><path fill="%23FFFFFF" d="M287 75.4a12.8 12.8 0 00-18.1 0L146.2 201.2 23.5 75.4a12.8 12.8 0 00-18.1 18.1l131 125.7a12.8 12.8 0 0018.1 0l131-125.7a12.8 12.8 0 000-18.1z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px top 50%;
+    background-size: 0.6em; 
+     align-items: center;
+    padding: 10px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--text-color);
+    background-color:rgba(20, 20, 20, 0.6);
+    border: 1px solid rgba(255,255,255,0.02);
+    transition: transform 120ms ease, box-shadow 120ms ease, background 120ms ease;
+    font-size: 14px;
+}
+
+.filter-select:focus {
+    outline: none;
+    border-color: var(--accent-color);
+}
+
+
+
+/* style.css */
+
+.filter-select {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    margin-top: 10px; 
+    border-radius: 8px;
+    border: 1px solid var(--hover-color);
+    
+    /* CRUCIAIS PARA O DARK MODE E PARA TIRAR O ESTILO PADRÃO: */
+    color: var(--text-color); /* Texto branco */
+    appearance: none; /* Remove a seta padrão do navegador */
+    
+    /* Se você tiver um ícone de seta customizado no background-image, ele também deve estar aqui */
+    /* Exemplo: background-image: url('data:image/svg+xml;...'); */
+}
+
+
+/* --- Estilo da review --- */
+.review-text {
+  text-align: justify; /* justifica o texto */
+  background: rgba(0, 0, 0, 0.4); /* fundo escuro e translúcido */
+  padding: 14px 16px;
+  border-radius: 8px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  color: var(--text-color);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* --- Estilo das informações do jogo --- */
+.review-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.05); /* leve contraste com o fundo */
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 0.9rem;
+  color: var(--text-color);
+}
+
+.review-info p {
+  margin: 0;
+  background: rgba(0, 0, 0, 0.25); /* cada item com fundo sutil */
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+
+.review-info p {
+  margin: 0;
+  background: rgba(0, 0, 0, 0.25);
+  padding: 6px 10px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.review-info i {
+  color: rgb(255, 255, 255); /* azul clarinho, combina com o resto */
+  width: 18px;
+  text-align: center;
+}
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+
+  z-index: -1;          /* joga pra última camada */
+  pointer-events: none; /* impede cliques no vídeo */
+}

@@ -1,0 +1,327 @@
+:root {
+    --bg-color: #1a1b1d; /* Fundo escuro */
+    --text-color: #ffffff; /* Texto branco */
+    --list-bg-color: #252628; /* Fundo da lista (um pouco mais claro que o bg) */
+    --hover-color: #313336; /* Fundo ao passar o mouse */
+    --accent-color: #4a90e2; /* Cor de destaque (um azul Anilist) */
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif; /* Mudar para uma fonte 'vibing' depois! */
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    padding: 20px;
+}
+
+
+/* Estilo para o botão de aba ativa (referencia cores definidas no Tailwind config) */
+.tab-button.active {
+    border-bottom: 3px solid #4f46e5;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+/* Estilo para os cards de dados */
+.data-card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para o spinner de carregamento */
+.loading-spinner {
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-top: 4px solid #4f46e5; /* Usa a cor primary */
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+/* Variáveis para fácil ajuste de VIBE */
+
+/* ============================================
+   BASE — fundo escuro e estrutura geral
+============================================ */
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    padding: 20px 0;
+    min-height: 100vh;
+    padding-top: calc(var(--header-height) + 20px);
+
+    /* BACKGROUND */
+    background-image:
+        linear-gradient(rgba(10, 10, 10, 1), rgba(10, 10, 10, 0.75)),
+        url('../YTDown.com_YouTube_Outer-Wilds-Desktop-Wallpaper-for-Wallpa_Media_ReNcgGzz5fQ_001_1080p.mp4');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+
+root {
+    --header-height: 86px;
+}
+
+
+/* ============================================
+   HEADER — versão não fixa
+============================================ */
+
+header {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    padding: 0 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid var(--hover-color);
+}
+
+.site-header {
+    position: relative;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 12px;
+    background: linear-gradient(180deg, rgba(0,0,0,0.06), rgba(0,0,0,0.32));
+
+    border: 1px solid rgba(255,255,255,0.03);
+    border-radius: 10px;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+
+    color: var(--text-color);
+
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+
+    overflow: hidden;
+}
+
+
+/* ============================================
+   HEADER INNER — conteúdo centralizado
+============================================ */
+
+.header-inner {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+/* ============================================
+   PERFIL
+============================================ */
+
+.profile {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.profile-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    object-fit: cover;
+
+    border: 1px solid rgba(255,255,255,0.04);
+    box-shadow: 0 6px 18px rgba(7,7,10,0.35);
+}
+
+.profile-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+}
+
+.profile-name {
+        font-family: 'Poppins', sans-serif;
+    margin: 0;
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    padding-left: 10px;
+}
+
+
+
+/* ============================================
+   NAVEGAÇÃO (compacta)
+============================================ */
+
+.main-nav {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-link {
+        font-family: 'Poppins', sans-serif;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    padding: 7px 10px;
+    border-radius: 10px;
+
+    font-size: 13px;
+    color: #E6E8EA;
+    text-decoration: none;
+
+    background: transparent;
+    border: 1px solid transparent;
+
+    transition: all 160ms ease;
+}
+
+.nav-link i {
+    font-size: 13px;
+}
+
+.nav-link span {
+    display: inline-block;
+}
+
+
+/* Hover / Active */
+.nav-link:hover {
+    background-color: rgba(74,144,226,0.08);
+    border-color: rgba(74,144,226,0.12);
+
+    background: rgba(255,255,255,0.02);
+    box-shadow: 0 10px 24px rgba(2,6,23,0.45);
+}
+
+.nav-link.active {
+    background: linear-gradient(90deg, rgba(117,79,171,0.14), rgba(61,119,145,0.10));
+    border-color: rgba(255,255,255,0.04);
+    color: #FFFFFF;
+    transform: none;
+}
+
+
+
+/* ============================================================
+   CONTENT WRAPPER — substitui bg-dark-bg
+============================================================ */
+.max-w-6xl.mx-auto {
+    background: rgba(0, 0, 0, 0.25); /* transparência */
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255,255,255,0.05);
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+}
+
+/* ============================================================
+   CARDS — ficam com visual glass igual ao resto do site
+============================================================ */
+.data-card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.04);
+    border-radius: 14px;
+    padding: 20px;
+
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+
+    box-shadow: 0 6px 18px rgba(0,0,0,0.35);
+}
+
+/* Quando passar o mouse */
+.data-card:hover {
+    border-color: rgba(255,255,255,0.06);
+    transform: translateY(-2px);
+    transition: all 0.2s ease;
+}
+
+/* Títulos */
+h2, h3 {
+    color: #fff;
+}
+
+/* Loading spinner */
+.loading-spinner {
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-top: 4px solid var(--accent-color);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin { 
+    to { transform: rotate(360deg); } 
+}
+
+.bg-card-bg {
+    background-color: #0a0a0a; /* preto puro */
+}
+
+
+/* ----- SELECTS DE MÉTRICA (ANO DE LANÇAMENTO / ANO ZERADO) ----- */
+#select-lancamento,
+#select-zerado,
+#genreLimit,
+#platformLimit {
+    background-color: #1f1f1f !important;
+    color: #ffffff !important;
+    border: 1px solid #333 !important;
+    border-radius: 6px !important;
+    padding: 6px 10px !important;
+}
+
+#select-lancamento option,
+#select-zerado option
+#genreLimit option,
+#platformLimit option {
+    background-color: #1f1f1f !important;
+    color: #ffffff !important;
+}
+
+.data-card {
+    background-color: #000 !important;
+}
+canvas {
+    background-color: transparent !important;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+
+  z-index: -1;          /* joga pra última camada */
+  pointer-events: none; /* impede cliques no vídeo */
+}

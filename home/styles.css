@@ -1,0 +1,428 @@
+/* .profile-text e .profile-name não é mais usado, é pra eu apagar ele de todos os lugares */
+
+
+
+
+/* Variáveis para fácil ajuste de VIBE */
+:root {
+    --bg-color: #000000; /* cor sólida no plano de fundo (APENAS SE A IMAGEM NÃO CARREGAR) */
+    --text-color: #ffffff; /* cor do texto (MUDAR ISSO NÃO ALTERA NADA (??)) */
+    --list-bg-color: #262825; /* Fundo da lista (um pouco mais claro que o bg) */
+    --hover-color: #313336; /* Fundo ao passar o mouse (MUDAR ISSO NÃO ALTERA NADA (??)) */
+    --accent-color: #4a90e2; /* Cor de destaque principal (O AZUL DOS ÍCONES) */
+
+    --glass-border: rgba(255,255,255,0.08); /* Borda dos cards dos links  */
+    --glass-bg: linear-gradient(180deg, rgba(20, 20, 20, 0.6), rgba(20, 20, 20, 0.8)); /* Cor interna dos cards dos links  */
+}
+
+
+* { /* (EM GERAL EU NÃO SEI O QUE ISSO FAZ) */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif; /* FONTE PRINCIPAL */
+}
+
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    min-height: 100vh;
+    padding: 0 20px; /* É IMPORTANTE ESSE ZERO PRA MANTER A ALTURA DA HEADER */
+    padding-bottom: 60px; /* ESPAÇO NO FINAL DA PÁGINA */
+
+    /* BACKGROUND */
+    background-image: linear-gradient(rgba(10, 10, 10, 1), rgba(10, 10, 10, 0.75)), url('https://images.steamusercontent.com/ugc/15154045471948863323/D21D6F1318F68C0083EACFC61852E242A5A88FA5/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.casa{
+    background-image: linear-gradient(rgba(10, 10, 10, 1), rgba(10, 10, 10, 0.75)), url('https://images.steamusercontent.com/ugc/15599600296892316246/6D6DAAD1FABDA269E2DA473C7E561F6D976B30DC/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false');}
+
+           /*2. HEADER ///////////////////////////////////////////*/
+           /*2. HEADER ///////////////////////////////////////////*/
+           /*2. HEADER ///////////////////////////////////////////*/
+
+header {
+    max-width: 1200px; /* LARGURA DA HEADER */
+    margin: 0 auto;
+    margin-top: 25px; /* ESPAÇO ENTRE A HEADER E O TOPO DA PÁGINA */
+    margin-bottom: 40px; /* ESPAÇO ENTRE A HEADER E O CONTEÚDO DA PÁGINA */
+    border-bottom: 2px solid var(--hover-color);
+}
+
+.site-header {
+    position: relative;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 12px; /* Distância entre o conteúdo da header e as suas bordas */
+    background: linear-gradient(180deg, rgba(0,0,0,0.06), rgba(0,0,0,0.32));
+
+    border: 1px solid rgba(255,255,255,0.03);
+    border-radius: 10px;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+
+    color: var(--text-color);
+
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+
+    overflow: hidden;
+}
+
+
+.header-inner {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.profile {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.profile-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    object-fit: cover;
+
+    border: 1px solid rgba(255,255,255,0.04);
+    box-shadow: 0 6px 18px rgba(7,7,10,0.35);
+}
+
+.profile-name-header { /* REFERENTE AO TEXTO "HI GOMES" */
+    margin: 0;
+    font-size: 30px;  /* TAMANHO */
+    font-weight: 600; /* ESPERSSURA */
+    color: white; /* COR*/
+    padding-left: 10px; /* DISTÃNCIA DA IMAGEM" */
+}
+
+.main-nav {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-link {
+        font-family: sans-serif;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    padding: 7px 10px;
+    border-radius: 10px;
+
+    font-size: 13px; /* TAMANHO DOS TEXTOS DA NAVEGAÇÃO */
+    color: #E6E8EA; /* COR DOS TEXTOS DE NAVEGAÇÃO */
+    text-decoration: none;
+
+    background: transparent;
+    border: 1px solid transparent;
+
+    transition: all 160ms ease;
+}
+
+
+.nav-link i {
+    font-size: 13px;
+}
+
+
+.nav-link span {
+    display: inline-block;
+}
+
+
+.nav-link:hover {
+    background-color: rgba(74,144,226,0.08);
+    border-color: rgba(74,144,226,0.12);
+
+    background: rgba(255,255,255,0.02);
+    box-shadow: 0 10px 24px rgba(2,6,23,0.45);
+}
+
+
+.nav-link.active {
+    background: linear-gradient(90deg, rgba(117,79,171,0.14), rgba(61,119,145,0.10));
+    border-color: rgba(255,255,255,0.04);
+    color: #FFFFFF;
+    transform: none;
+}
+
+            /*3. ÁREA DOS LINKS ///////////////////////////////////////////*/
+            /*3. ÁREA DOS LINKS ///////////////////////////////////////////*/
+            /*3. ÁREA DOS LINKS ///////////////////////////////////////////*/
+                                 
+        
+.content-wrapper { /* LIMITA O SITE A SER EXIBIDO APENAS NO MEIO DA TELA */
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+        .page-title { /* REFERENTE AO TÍTULO DA PÁGINA "Kissutina" */
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 0 20px;
+            animation: fadeIn 1s ease;
+        }
+        .page-title h1 { font-size: 32px; margin-bottom: 5px; }
+        .page-title p { color: #ccc; font-weight: 300; }
+
+
+
+        .links-wrapper { /* REFERENTE AOS CARDS DOS LINKS */
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 16px; /* DISTÂNCIA ENTRE OS CARDS */
+        }
+
+        .link-card {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 18px 25px;
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 120px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+            color: #E6E8EA;
+            text-decoration: none;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            transition: all 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            overflow: hidden;
+            animation: fadeInUp 0.5s ease backwards;
+        }
+
+
+        /* ANIMAÇÃO DE ENTRADA DOS CARDS DOS LINKS */
+        .link-card:nth-child(1) { animation-delay: 0.1s; }
+        .link-card:nth-child(2) { animation-delay: 0.2s; }
+        .link-card:nth-child(3) { animation-delay: 0.3s; }
+        .link-card:nth-child(4) { animation-delay: 0.4s; }
+        .link-card:nth-child(5) { animation-delay: 0.5s; }
+        .link-card:nth-child(6) { animation-delay: 0.6s; }
+        .link-card:nth-child(7) { animation-delay: 0.7s; }
+        .link-card:nth-child(8) { animation-delay: 0.8s; }
+
+        .link-content {
+            display: flex;
+            align-items: center;
+            gap: 15px; /* DISTÂNCIA DO TEXTO DO LINK DO ÍCONE */
+            z-index: 2;
+        }
+
+        .link-icon {
+            font-size: 20px; /* TAMANHO DO ÍCONE */
+            width: 30px;
+            text-align: center;
+            color: var(--accent-color); /* COR DO ÍCONE, PUXANDO DA VÁRIÁVEL */
+            transition: color 0.3s;
+        }
+
+        .link-text { /* REFERENTE AO TEXTO DOS LINKS */
+            font-size: 16px; /* TAMANHO */
+            font-weight: 500; /* ESPESSURA  */
+            letter-spacing: .5px; /* DISTÂNCIA ENTRE AS LETRAS */
+        }
+
+        .link-card:hover { /* HOVER DOS CARDS */
+            transform: translateY(-3px) scale(1.01); /* SUBIDINHA QUE ELE DÁ  */
+            background: linear-gradient(90deg, rgba(74,144,226,0.15), rgba(61,119,145,0.10)); /* BACKGROUND FICANDO AZUL */
+            border-color: rgba(74,144,226,0.4); /* BORDA FICANDO AZUL */
+            box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+        }
+
+        .link-card:hover .link-icon {
+            color: #fff; /* ÍCONE FICANDO BRANCO NO HOVER */
+            text-shadow: 0 0 10px var(--accent-color);
+        }
+
+        .external-icon { /* ÍCONE DO LADO DIREITO */
+            font-size: 12px; /* TAMANHO */
+            opacity: 0.3; /* OPACIDADE */
+            transition: transform 0.3s, opacity 0.3s;
+        }
+
+        .link-card:hover .external-icon {
+            opacity: 1;
+            transform: translateX(3px) translateY(-3px);
+        }
+
+        .secret-link { border-color: rgba(255, 0, 0, 0.1); }
+        .secret-link:hover {
+            background: linear-gradient(90deg, rgba(255, 50, 50, 0.15), rgba(0,0,0,0.5));
+            border-color: rgba(255, 50, 50, 0.4);
+        }
+        .secret-link .link-icon { color: #ff5555; }
+        .secret-link:hover .link-icon { text-shadow: 0 0 10px #ff5555; }
+
+        /* =========================================================
+           4. NOVA ÁREA: SOBRE MIM
+        ========================================================= */
+        
+        .about-section { /* ÁREA DO SOBRE MIM */
+            width: 100%;
+            margin-top: 40px; /* DISTÂNCIA DOS LINKS */
+            padding: 25px 30px;
+            
+            /* Visual Glassmorphism igual aos botões, mas sem ser botão */
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 12px;
+            backdrop-filter: blur(10px);
+            
+            text-align: center;
+            color: #E6E8EA;
+            animation: fadeInUp 0.5s ease backwards;
+            animation-delay: 0.8s; /* Aparece depois de todos os links */
+        }
+
+        .about-title { /* TÍTULO SOBRE MIM */
+            font-size: 18px; /* TAMANHO DA LETRA */
+            font-weight: 600; /* ESPESSURA */
+            color: var(--accent-color); /* COR AZUL DA VARIÁVEL */
+            margin-bottom: 12px; /* DISTÂNCIA DO TÍTULO AO TEXTO */
+            text-transform: uppercase;
+            letter-spacing: 1px; /* DISTÂNCIA DAS LETRAS */
+        }
+
+        .about-text { /* TEXTO SOBRE MIM */
+            font-size: 14px; /* TAMANHO DA LETRA */
+            line-height: 1.6; /* DISTÂNCIA DAS LINHAS */
+            color: #cccccc; /* COR DO TEXTO */
+            font-weight: 300; /* ESPESSURA */
+        }
+
+
+        /*3. CARROSSEL ///////////////////////////////////////////*/
+        /*3. CARROSSEL ///////////////////////////////////////////*/
+        /*3. CARROSSEL ///////////////////////////////////////////*/
+
+        .carousel-container {
+            display: flex;
+            flex-direction: column;
+            gap: 40px; /* Espaço entre as linhas */
+            width: 100%;
+            padding-bottom: 40px;
+        }
+
+        .carousel-row {
+            position: relative;
+            width: 100%;
+            overflow: hidden; /* Esconde o que sai da tela */
+            display: flex;
+            /* Máscara de gradiente nas bordas para dar efeito de fade */
+            mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+            -webkit-mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+        }
+
+        /* O trilho que se move */
+        .track {
+            display: flex;
+            gap: 20px; /* Espaço entre as imagens */
+            width: max-content; /* Largura se adapta ao conteúdo */
+        }
+
+        /* As Imagens */
+        .track img {
+            /* ALTURA FIXA PARA TODAS - Ajuste aqui se quiser maior/menor */
+            height: 260px; 
+            width: auto; /* Mantém a proporção */
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+            border: 1px solid rgba(255,255,255,0.1);
+            transition: transform 0.3s ease, filter 0.3s ease;
+            filter: brightness(0.9); /* Um pouco mais escura por padrão */
+        }
+
+        .track img:hover {
+            transform: scale(1.05);
+            filter: brightness(1.0001); /* Brilha no hover */
+            border-color: var(--accent-color);
+            z-index: 10;
+        }
+
+        /* Animações de Rolagem */
+        .marquee-left {
+            animation: scrollLeft 40s linear infinite;
+        }
+        
+        .marquee-right {
+            animation: scrollRight 60s linear infinite;
+        }
+
+        /* Pausa a animação quando o mouse passa por cima da LINHA inteira */
+        .carousel-row:hover .track {
+            animation-play-state: paused;
+        }
+
+        @keyframes scrollLeft {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); } /* Move metade, onde começa o clone */
+        }
+
+        @keyframes scrollRight {
+            0% { transform: translateX(-50%); }
+            100% { transform: translateX(0); }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; } to { opacity: 1; }
+        }
+
+        /* Mobile adjustment */
+        @media (max-width: 768px) {
+            .track img { height: 180px; } /* Imagens menores no celular */
+            .carousel-container { gap: 20px; }
+            .link-card { padding: 15px 20px; }
+        }
+
+                /* Keyframes */
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+
+  z-index: -1;          /* joga pra última camada */
+  pointer-events: none; /* impede cliques no vídeo */
+}
