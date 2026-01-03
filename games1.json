@@ -293,7 +293,7 @@
     "ano_lancamento": 2008,
     "dificuldade": "B",
     "data_zerado": 2025,
-    "conquistas_percentual": "100%",
+    "conquistas_percentual": "100/100",
     "nota_pessoal": 8.0,
     "generos": [
       "Aventura",
@@ -497,7 +497,7 @@
     "ano_lancamento": 1996,
     "dificuldade": "AA",
     "data_zerado": 2024,
-    "conquistas_percentual": "100%",
+    "conquistas_percentual": "100/100",
     "nota_pessoal": 6.0,
     "generos": [
       "Plataforma",
@@ -1653,7 +1653,7 @@
     "ano_lancamento": 2011,
     "dificuldade": "B",
     "data_zerado": 2016,
-    "conquistas_percentual": "74/29",
+    "conquistas_percentual": "74/74",
     "nota_pessoal": 10.0,
     "generos": [
       "Sandbox",
@@ -2435,7 +2435,7 @@
     "ano_lancamento": 2018,
     "dificuldade": "C",
     "data_zerado": 2024,
-    "conquistas_percentual": "100%",
+    "conquistas_percentual": "100/100",
     "nota_pessoal": 7.0,
     "generos": [
       "Drama",
@@ -2486,7 +2486,7 @@
     "ano_lancamento": 2019,
     "dificuldade": "B",
     "data_zerado": 2024,
-    "conquistas_percentual": "100%",
+    "conquistas_percentual": "100/100",
     "nota_pessoal": 9.0,
     "generos": [
       "Aventura",
@@ -2802,4 +2802,5 @@
     "capa_url": "https://cdn2.steamgriddb.com/icon/ced556cd9f9c0c8315cfbe0744a3baf0.ico",
     "review": "Todas as conquistas"
   }
+
 ]
