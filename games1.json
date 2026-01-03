@@ -12,7 +12,7 @@
     ],
     "status": "Zerado",
     "plataforma": "PC",
-    "icone_url": "",
+    "icone_url": "https://cdn2.steamgriddb.com/grid/2155669fd4629ccda1cb631e5ec41293.png",
     "capa_url": "https://cdn2.steamgriddb.com/grid/2155669fd4629ccda1cb631e5ec41293.png",
     "review": "Todas as conquistas"
   },
@@ -403,8 +403,8 @@
     ],
     "status": "Zerado",
     "plataforma": "PC",
-    "icone_url": "",
-    "capa_url": "",
+    "icone_url": "https://shared.steamstatic.com/store_item_assets/steam/apps/1928430/logo.png?t=1651364643",
+    "capa_url": "https://shared.steamstatic.com/store_item_assets/steam/apps/1928430/library_600x900_2x.jpg?t=1651364643",
     "review": "Sem condição pra platina"
   },
   {
@@ -488,8 +488,8 @@
     ],
     "status": "Zerado",
     "plataforma": "PC",
-    "icone_url": "",
-    "capa_url": "",
+    "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/3194140/934407b714e69efd19a8507cb5372319a38822f2.jpg",
+    "capa_url": "https://shared.steamstatic.com/store_item_assets/steam/apps/3194140/library_600x900_2x.jpg?t=1744622933",
     "review": "Todas as conquistas"
   },
   {
@@ -675,8 +675,8 @@
     ],
     "status": "Zerado",
     "plataforma": "PC",
-    "icone_url": "",
-    "capa_url": "",
+    "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/2436330/6a2ef67617c05c1b5535422e88f61638c325bd6b.jpg",
+    "capa_url": "https://shared.steamstatic.com/store_item_assets/steam/apps/2436330/library_600x900_2x.jpg?t=1684683388",
     "review": "Todas as conquistas"
   },
   {
@@ -794,8 +794,8 @@
     ],
     "status": "Zerado",
     "plataforma": "PC",
-    "icone_url": "",
-    "capa_url": "",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/ce7a0d2e8a8912b1e1f1e9f471e4bb27/32/256x256.png",
+    "capa_url": "https://cdn2.steamgriddb.com/thumb/58a96947a02b58f83e1fc971b27c39ed.png",
     "review": "Todas as conquistas"
   },
   {
@@ -811,8 +811,8 @@
     ],
     "status": "Zerado",
     "plataforma": "PC",
-    "icone_url": "",
-    "capa_url": "https://cdn2.steamgriddb.com/grid/c86435e697f9621c652ef4398cf2b24c.png",
+    "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/1683860/d64f397c145be71845f1d9a7827d6603f84425a0.jpg",
+    "capa_url": "https://shared.steamstatic.com/store_item_assets/steam/apps/1683860/library_600x900_2x.jpg?t=1698298067",
     "review": "Todas as conquistas"
   },
   {
@@ -947,8 +947,8 @@
     ],
     "status": "Zerado",
     "plataforma": "PC",
-    "icone_url": "",
-    "capa_url": "",
+    "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/2080560/b52f9d0f953fa5a93849d6827be9e4822d1cd2c3.jpg",
+    "capa_url": "https://shared.steamstatic.com/store_item_assets/steam/apps/2080560/library_600x900_2x.jpg?t=1658229341",
     "review": "Todas as conquistas"
   },
   {
@@ -1253,7 +1253,7 @@
     ],
     "status": "Zerado",
     "plataforma": "PC",
-    "icone_url": "",
+    "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/2171690/0296ae193062ff82161625e1eb259e792ad3ef74.jpg",
     "capa_url": "https://cdn2.steamgriddb.com/grid/59dd9f968c5a740f1215063f50ceb01c.png",
     "review": "Todas as conquistas"
   },
@@ -1321,7 +1321,7 @@
     ],
     "status": "Zerado",
     "plataforma": "PC",
-    "icone_url": "",
+    "icone_url": "https://cdn2.steamgriddb.com/grid/0f9705679647bb809c9261e048683be6.png",
     "capa_url": "https://cdn2.steamgriddb.com/grid/0f9705679647bb809c9261e048683be6.png",
     "review": "Todas as conquistas"
   },
@@ -1474,8 +1474,8 @@
     ],
     "status": "Zerado",
     "plataforma": "PC",
-    "icone_url": "",
-    "capa_url": "",
+    "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/839850/c3999da6b578905c9e04aac76118c0fbabcaf934.jpg",
+    "capa_url": "https://shared.steamstatic.com/store_item_assets/steam/apps/839850/library_600x900_2x.jpg?t=1733684125",
     "review": "Todas as conquistas"
   },
   {
@@ -1678,12 +1678,12 @@
     ],
     "status": "Zerado",
     "plataforma": "PC",
-    "icone_url": "",
+    "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/1201630/e62266964a8a85f89de9586bbf731eaa7abba2d8.jpg",
     "capa_url": "https://cdn2.steamgriddb.com/grid/3e0e454de347d0b08225790208e923cd.png",
     "review": "Sem condição pra platina"
   },
   {
-    "titulo": "misses messages",
+    "titulo": "missed messages",
     "ano_lancamento": 2019,
     "dificuldade": "C",
     "data_zerado": 2025,
@@ -1695,7 +1695,7 @@
     ],
     "status": "Zerado",
     "plataforma": "PC",
-    "icone_url": "",
+    "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/812810/4c8492567d415b76fe1a2563fe7bcc71bb9f41cf.jpg",
     "capa_url": "https://cdn2.steamgriddb.com/grid/499fbac74118ee2b2292c74a7751d60b.png",
     "review": "Todas as conquistas"
   },
@@ -1950,8 +1950,8 @@
     ],
     "status": "Zerado",
     "plataforma": "PC",
-    "icone_url": "",
-    "capa_url": "",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/6be0fc6d398b58e837e9ed93a6342a46/32/512x512.png",
+    "capa_url": "https://cdn2.steamgriddb.com/thumb/45648ca1fd7262e55a29a62e11be9982.jpg",
     "review": "Sem condição pra platina"
   },
   {
@@ -2120,7 +2120,7 @@
     ],
     "status": "Zerado",
     "plataforma": "PC",
-    "icone_url": "",
+    "icone_url": "https://cdn2.steamgriddb.com/thumb/de4969273355b1942e8ea35a9f06c2eb.jpg",
     "capa_url": "https://cdn2.steamgriddb.com/grid/33cabaee6fd44a7a452d262bdee8c4f2.jpg",
     "review": "Zerar com 5 bebês vivos"
   },
@@ -2137,7 +2137,7 @@
     ],
     "status": "Zerado",
     "plataforma": "PC",
-    "icone_url": "",
+    "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/275100/9001133b0b9a79412a1dec8fae85f5fe3ca45986.ico",
     "capa_url": "https://cdn2.steamgriddb.com/grid/e06e88131aed33f9161feabebc730752.png",
     "review": "Todas as conquistas"
   },
@@ -2324,7 +2324,7 @@
     ],
     "status": "Zerado",
     "plataforma": "PS3",
-    "icone_url": "https://cdn2.steamgriddb.com/icon/63a99723ebb3af94d52b474c3b21dbe1.ico",
+    "icone_url": "https://cdn2.steamgriddb.com/icon_thumb/c2e8b74defb073cd8cf4e942136ea164.png",
     "capa_url": "https://cdn2.steamgriddb.com/grid/b80c0932cb6f7be27c8d37b4c847a8bd.png",
     "review": "Todas as conquistas"
   },
@@ -2460,7 +2460,7 @@
     ],
     "status": "Zerado",
     "plataforma": "PC",
-    "icone_url": "",
+    "icone_url": "https://cdn2.steamgriddb.com/logo_thumb/553b17c60bdb51e96d3a63431b3d766a.png",
     "capa_url": "https://cdn2.steamgriddb.com/grid/cece5cb390d1ba25e9dcbb7afda5116f.png",
     "review": "Todas as conquistas"
   },
@@ -2511,7 +2511,7 @@
     ],
     "status": "Zerado",
     "plataforma": "PC",
-    "icone_url": "",
+    "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/893850/8171a6a3bf39c6573a927fce616b7a1adf043aaa.jpg",
     "capa_url": "https://cdn2.steamgriddb.com/grid/2c28f0f98e083eee1f018fc782292ffc.png",
     "review": "Todas as conquistas"
   },
@@ -2749,7 +2749,7 @@
     ],
     "status": "Zerado",
     "plataforma": "PC",
-    "icone_url": "",
+    "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/1860570/0c3ca8e5cb886820244b0d62dfa9cd2c59f612b0.jpg",
     "capa_url": "https://cdn2.steamgriddb.com/grid/4ff26187c1dfab15c1bb4ffba9dfdefa.png",
     "review": "Sem condição pra platina"
   },
