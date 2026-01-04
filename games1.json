@@ -266,8 +266,8 @@
     "icone_url": "https://cdn2.steamgriddb.com/icon/c1b065665fca248c21d290530afb9f23.png",
     "capa_url": "https://cdn2.steamgriddb.com/grid/d906797ff37c8f24d2cf269b26b417b4.png",
     "review": "Chatinho, e só se zera pela platina, o que não vou porque é MUITO dificil"
-  }
-  {,
+  },
+  {
     "titulo": "A Hat in Time",
     "ano_lancamento": 2017,
     "dificuldade": "B",
@@ -3055,4 +3055,5 @@
   }
 
 ]
+
 
