@@ -2915,5 +2915,23 @@
     "icone_url": "https://cdn2.steamgriddb.com/icon/62d7cfaa9f6b9ccf1bb85607bb6e7a13/32/256x256.png",
     "capa_url": "https://cdn2.steamgriddb.com/thumb/fed0c7fbfeed1cca37712b486ff4aaee.jpg",
     "review": "Condição pra platina: Todas as conquistas<br><br>Review: O jogo é fofo, a arte é confortável de ficar olhando, mas eu fiquei de saco cheio do jogo muito rápido. Pode ser porque eu sou burra, mas eu cheguei na metade do jogo e fiquei tão cansada de ter que fazer mais 8 níveis que eu só vi guia pra terminar o mais rápido possível."
+  },{
+    "titulo": "MyVoiceZoo",
+    "ano_lancamento": 2025,
+    "dificuldade": "C",
+    "data_zerado": 2026,
+    "conquistas_percentual": "1/1",
+    "nota_pessoal": 6,
+    "generos": [
+      "Idle",
+      "Coleção de Criaturas",
+      "Simulator",
+      "Casual"
+    ],
+    "status": "Zerado",
+    "plataforma": "PC",
+    "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/4015530/dfe09f4597d0f93b7f4c3d06f135f7a4e043f3bb.ico",
+    "capa_url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4015530/b8ed7cae8660d836db66b7ad44384aefd07f8030/library_capsule_2x.jpg?t=1758026825",
+    "review": "Condição pra platina: Todas as conquistas<br><br>Review: É um jogo engraçado com amigos assistindo/vendo seus amigos jogarem, mas sozinho só se torna cringe mesmo."
   }
 ]
