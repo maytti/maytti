@@ -2951,5 +2951,23 @@
     "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/1509960/738c7b1a12275d8b792f9a01a6c174453cd9770e.jpg",
     "capa_url": "https://shared.steamstatic.com/store_item_assets/steam/apps/1509960/library_600x900_2x.jpg?t=1618484639",
     "review": "Condição pra platina: Todas as conquistas<br><br>Review: Um jogo bem divertido mas que pode acabar com algumas amizades. Bem curto e simples, não fez diferença na minha vida mas as duas horinhas que joguei com meus amigos foram boas (apesar de estressantes)."
+  },{
+  "titulo": "Wordle",
+    "ano_lancamento": 2021,
+    "dificuldade": "AA",
+    "data_zerado": 2026,
+    "conquistas_percentual": "6/6",
+    "nota_pessoal": 3,
+    "generos": [
+      "Puzzle",
+      "2D",
+      "Indie",
+      "Casual"
+    ],
+    "status": "Zerado",
+    "plataforma": "PC",
+    "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/1334000/609032492a1358909a24a9985c6d956e06449bd6.jpg",
+    "capa_url": "https://shared.steamstatic.com/store_item_assets/steam/apps/1334000/library_600x900_2x.jpg?t=1726132959",
+    "review": "Condição pra platina: Todas as conquistas<br><br>Review: Muito chato, palavras repetidas, sem música nenhuma, sem tradução pra português, algumas palavras nada a ver. Além de que nem é um wordle de verdade."
   }
 ]
