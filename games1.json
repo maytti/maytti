@@ -2933,5 +2933,23 @@
     "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/4015530/dfe09f4597d0f93b7f4c3d06f135f7a4e043f3bb.ico",
     "capa_url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4015530/b8ed7cae8660d836db66b7ad44384aefd07f8030/library_capsule_2x.jpg?t=1758026825",
     "review": "Condição pra platina: Todas as conquistas<br><br>Review: É um jogo engraçado com amigos assistindo/vendo seus amigos jogarem, mas sozinho só se torna cringe mesmo."
+  },{
+  "titulo": "PICO PARK",
+    "ano_lancamento": 2021,
+    "dificuldade": "B",
+    "data_zerado": 2026,
+    "conquistas_percentual": "",
+    "nota_pessoal": 6,
+    "generos": [
+      "Cooperativo",
+      "Multiplayer",
+      "Plataforma",
+      "Casual"
+    ],
+    "status": "Zerado",
+    "plataforma": "PC",
+    "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/1509960/738c7b1a12275d8b792f9a01a6c174453cd9770e.jpg",
+    "capa_url": "https://shared.steamstatic.com/store_item_assets/steam/apps/1509960/library_600x900_2x.jpg?t=1618484639",
+    "review": "Condição pra platina: Todas as conquistas<br><br>Review: Um jogo bem divertido mas que pode acabar com algumas amizades. Bem curto e simples, não fez diferença na minha vida mas as duas horinhas que joguei com meus amigos foram boas (apesar de estressantes)."
   }
 ]
