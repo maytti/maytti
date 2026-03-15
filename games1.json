@@ -3005,5 +3005,23 @@
     "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/268910/a93a66a6089ceb8e34243335ac1222f23df5f5f5.ico",
     "capa_url": "https://shared.steamstatic.com/store_item_assets/steam/apps/268910/library_600x900_2x.jpg?t=1709068320",
     "review": "Condição pra platina: Todas as conquistas<br><br>Review:"
+    },{
+  "titulo": "Birds Watching",
+    "ano_lancamento": 2026,
+    "dificuldade": "B",
+    "data_zerado": 2026,
+    "conquistas_percentual": "25/25",
+    "nota_pessoal": 3,
+    "generos": [
+      "Horror Psicológico",
+      "Terror",
+      "Pássaros",
+      "Exploração"
+    ],
+    "status": "Zerado",
+    "plataforma": "PC",
+    "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/3979870/af057959ffd7cda582e0cdb687d8b80c9f7cb9a8.jpg",
+    "capa_url": "https://shared.steamstatic.com/store_item_assets/steam/apps/3979870/5d73492fd1768780b4ab3e5adc66e4a2a29e873a/library_capsule_2x.jpg?t=1764070590",
+    "review": "Condição pra platina: Todas as conquistas<br><br>Review: Jogo de terror psicológico sem terror psicológico, tentativas falhas de jumpscare, bugs (MUITOS BUGS) e um plot terrível de ruim. Desperdício de tempo e dinheiro. Não serve nem pra dar risada."
   }
 ]
