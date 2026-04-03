@@ -3081,5 +3081,22 @@
     "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/2142680/7aa847112466f3b0981377a1f575be693e293739.jpg",
     "capa_url": "https://shared.steamstatic.com/store_item_assets/steam/apps/2142680/library_600x900_2x.jpg?t=1736231454",
     "review": "Condição pra platina: Todas as conquistas<br><br>Review: Fases repetidas, botões que as vezes não são detectáveis, hitbox ridícula, fases sem nexo nenhum. Bonitinho, nem um pouco original."
+    },{
+  "titulo": "Horripilant",
+    "ano_lancamento": 2026,
+    "dificuldade": "B",
+    "data_zerado": 2026,
+    "conquistas_percentual": "57/57",
+    "nota_pessoal": 6,
+    "generos": [
+      "Incremental",
+      "Idle",
+      "Casual"
+    ],
+    "status": "Zerado",
+    "plataforma": "PC",
+    "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/3525970/e895efcd2163ef6e8faf25960f8e0ec085def164.ico",
+    "capa_url": "https://shared.steamstatic.com/store_item_assets/steam/apps/3525970/7abc5ac51bd95a278f748369b83490642f42542b/library_600x900_2x.jpg?t=1764104714",
+    "review": "Condição pra platina: Todas as conquistas<br><br>Review:"
   }
 ]
