@@ -3115,5 +3115,23 @@
     "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/469820/f5d7ccc4bd1986797fdc3d8257be9edddb05762e.ico",
     "capa_url": "https://shared.steamstatic.com/store_item_assets/steam/apps/469820/library_600x900_2x.jpg?t=1568676865",
     "review": "Condição pra platina: Todas as conquistas<br><br>Review:"
+       },{
+  "titulo": "Mario Party 7",
+    "ano_lancamento": 2005,
+    "dificuldade": "B",
+    "data_zerado": 2026,
+    "conquistas_percentual": "",
+    "nota_pessoal": 6,
+    "generos": [
+      "Party",
+      "Tabuleiro",
+      "Puzzle",
+      "Minigames"
+    ],
+    "status": "Zerado",
+    "plataforma": "PC",
+    "icone_url": "https://cdn2.steamgriddb.com/icon_thumb/88894d2a720792fb60caa22d8cbeb66d.png",
+    "capa_url": "https://cdn2.steamgriddb.com/thumb/bb9bd43af0e81257a5d156a5411ebce7.jpg",
+    "review": "Condição pra platina: Todas as conquistas<br><br>Review:"
   }
 ]
