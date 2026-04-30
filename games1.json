@@ -3191,22 +3191,23 @@
     "capa_url": "https://cdn2.steamgriddb.com/thumb/4cde7bfdc2fa8ba457b88daba87f73bf.jpg",
     "review": "Condição pra platina: Todas as conquistas<br><br>Review:"
   },{
-  "titulo": "A Game About Digging A Hole™",
-    "ano_lancamento": 2025,
+  "titulo": "One-armed robber™",
+    "ano_lancamento": 2023,
     "dificuldade": "B",
     "data_zerado": 2026,
-    "conquistas_percentual": "10/10",
+    "conquistas_percentual": "6/43",
     "nota_pessoal": 5,
     "generos": [
       "Simulator",
-      "Exploração",
-      "Mineração",
-      "Terror"
+      "Cooperativo",
+      "Ação",
+      "Multiplayer"
     ],
     "status": "Zerado",
     "plataforma": "PC",
-    "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/3244220/42e30470e2691b8be5e5be7892193da955f30c4c.jpg",
-    "capa_url": "https://shared.steamstatic.com/store_item_assets/steam/apps/3244220/69ab961110a2dde302c6b3282a2d99f65b6a26b9/library_600x900_2x.jpg?t=1753866090",
-    "review": "Condição pra platina: Todas as conquistas<br><br>Review: Cavar buraco."
+    "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/2551020/810402b02588c37cc459b1a39896ab9377ba616a.jpg",
+    "capa_url": "https://shared.steamstatic.com/store_item_assets/steam/apps/2551020/library_600x900_2x.jpg?t=1707409807",
+    "review": "Condição pra platina: Todas as conquistas<br><br>Review:"
   }
+
 ]
