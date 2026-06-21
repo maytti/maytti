@@ -3339,6 +3339,65 @@
     "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/4467540/c497d85bef17cd081476f0935218e4d00e252b28.jpg",
     "capa_url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4467540/324835975943e94d6f5546921f53d68fd821269a/library_capsule_2x.jpg?t=1772970947",
     "review": "Condição pra platina: Todas as conquistas<br><br>Review:"
+      },{
+  "titulo": "Garry's Mod",
+    "ano_lancamento": 2006,
+    "dificuldade": "B",
+    "data_zerado": 2026,
+    "conquistas_percentual": "3/29",
+    "nota_pessoal": 8,
+    "generos": [ 
+      "Sandbox",
+      "Simulator",
+      "Física",
+      "Multiplayer", 
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "PC",
+    "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/4000/01b545c997d68f6c4ac18ccef6c57d1d5d690e03.ico",
+    "capa_url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4000/library_600x900_2x.jpg?t=1753371632",
+    "review": "Condição pra platina: Todas as conquistas<br><br>Review:"
+        },{
+  "titulo": "YAPYAP",
+    "ano_lancamento": 2026,
+    "dificuldade": "B",
+    "data_zerado": 2026,
+    "conquistas_percentual": "",
+    "nota_pessoal": 8,
+    "generos": [ 
+      "Multiplayer",
+      "Engraçado",
+      "Terror",
+      "Física", 
+      "Cooperativo",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "PC",
+    "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/3834090/b90bd3bc55bd618c420179c05bda8f7623c2e876.jpg",
+    "capa_url": "https://shared.steamstatic.com/store_item_assets/steam/apps/3834090/8a16962802f343a37b6b5524a1128f554b2e43ad/library_capsule_2x.jpg?t=1755966905",
+    "review": "Condição pra platina: Todas as conquistas<br><br>Review:"
+          },{
+  "titulo": "Super Battle Golf",
+    "ano_lancamento": 2026,
+    "dificuldade": "B",
+    "data_zerado": 2026,
+    "conquistas_percentual": "8/44",
+    "nota_pessoal": 7,
+    "generos": [ 
+      "Multiplayer",
+      "Engraçado",
+      "Esporte",
+      "Caótico", 
+      "Cooperativo",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "PC",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/884294cd295108dd1fffa3c9e98c32f9/32/256x256.png",
+    "capa_url": "https://cdn2.steamgriddb.com/thumb/31c2798f33bcbfa79b1840656b709249.jpg",
+    "review": "Condição pra platina: Todas as conquistas<br><br>Review:"
   }
 
 
