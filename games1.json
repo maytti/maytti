@@ -1488,7 +1488,9 @@
     "nota_pessoal": 10.0,
     "generos": [
       "Ação",
-      "Escolhas"
+      "Escolhas",
+      "Narrativo",
+      "LGBTQIA+"
     ],
     "status": "Zerado",
     "plataforma": "PC",
@@ -1505,7 +1507,9 @@
     "nota_pessoal": 9.0,
     "generos": [
       "Drama",
-      "Escolhas"
+      "Escolhas",
+      "Narrativo",
+      "Aventura"
     ],
     "status": "Zerado",
     "plataforma": "PC",
@@ -1522,7 +1526,9 @@
     "nota_pessoal": 10.0,
     "generos": [
       "Drama",
-      "Escolhas"
+      "Escolhas",
+      "Narrativo",
+      "LGBTQIA+"
     ],
     "status": "Zerado",
     "plataforma": "PC",
@@ -3358,7 +3364,7 @@
     "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/4000/01b545c997d68f6c4ac18ccef6c57d1d5d690e03.ico",
     "capa_url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4000/library_600x900_2x.jpg?t=1753371632",
     "review": "Condição pra platina: Todas as conquistas<br><br>Review:"
-        },{
+     },{
   "titulo": "YAPYAP",
     "ano_lancamento": 2026,
     "dificuldade": "B",
@@ -3378,7 +3384,7 @@
     "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/3834090/b90bd3bc55bd618c420179c05bda8f7623c2e876.jpg",
     "capa_url": "https://shared.steamstatic.com/store_item_assets/steam/apps/3834090/8a16962802f343a37b6b5524a1128f554b2e43ad/library_capsule_2x.jpg?t=1755966905",
     "review": "Condição pra platina: Todas as conquistas<br><br>Review:"
-          },{
+     },{
   "titulo": "Super Battle Golf",
     "ano_lancamento": 2026,
     "dificuldade": "B",
@@ -3398,7 +3404,7 @@
     "icone_url": "https://cdn2.steamgriddb.com/icon/884294cd295108dd1fffa3c9e98c32f9/32/256x256.png",
     "capa_url": "https://cdn2.steamgriddb.com/thumb/31c2798f33bcbfa79b1840656b709249.jpg",
     "review": "Condição pra platina: Todas as conquistas<br><br>Review:"
-            },{
+      },{
   "titulo": "Helltaker",
     "ano_lancamento": 2020,
     "dificuldade": "AA",
@@ -3416,7 +3422,7 @@
     "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/1289310/c4cfc91850d08836a6b49bc0509f7b0e3e17ffa4.jpg",
     "capa_url": "https://shared.steamstatic.com/store_item_assets/steam/apps/1289310/library_600x900_2x.jpg?t=1608234585",
     "review": "Condição pra platina: Todas as conquistas<br><br>Review:"
-              },{
+     },{
   "titulo": "Kabuto Park",
     "ano_lancamento": 2025,
     "dificuldade": "B",
@@ -3434,6 +3440,44 @@
     "plataforma": "PC",
     "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/3376990/6e9cd5982cbdb2fe037a53540fde4802704840ad.ico",
     "capa_url": "https://shared.steamstatic.com/store_item_assets/steam/apps/3376990/8d2cc39b2f394cce8e626db365542078a8498bde/library_600x900_2x.jpg?t=1759310024",
+    "review": "Condição pra platina: Todas as conquistas<br><br>Review:"
+      },{
+  "titulo": "R.E.P.O.",
+    "ano_lancamento": 2025,
+    "dificuldade": "B",
+    "data_zerado": 2026,
+    "conquistas_percentual": "",
+    "nota_pessoal": 8,
+    "generos": [ 
+      "Multiplayer",
+      "Cooperativo",
+      "Engraçado",
+      "Terror",
+      "Física"
+    ],
+    "status": "Zerado",
+    "plataforma": "PC",
+    "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/3241660/b8bf4770408fc369e15cebd42e0026a27b67aaa8.jpg",
+    "capa_url": "https://shared.steamstatic.com/store_item_assets/steam/apps/3241660/46b4813ef1cd20664299c9e5de847f3579b44f2e/library_600x900_2x.jpg?t=1761830774",
+    "review": "Condição pra platina: Todas as conquistas<br><br>Review:"
+    },{
+  "titulo": "Life is Strange: True Colors",
+    "ano_lancamento": 2021,
+    "dificuldade": "B",
+    "data_zerado": 2026,
+    "conquistas_percentual": "40/40",
+    "nota_pessoal": 9,
+    "generos": [ 
+      "Narrativo",
+      "Escolhas",
+      "LGBTQIA+",
+      "Protagonista Mulher",
+      "Drama"
+    ],
+    "status": "Zerado",
+    "plataforma": "PC",
+    "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/936790/d779927517f9ba9a078016c47d50e3a5648f0585.jpg",
+    "capa_url": "https://shared.steamstatic.com/store_item_assets/steam/apps/936790/library_600x900_2x.jpg?t=1659101425",
     "review": "Condição pra platina: Todas as conquistas<br><br>Review:"
   }
 
