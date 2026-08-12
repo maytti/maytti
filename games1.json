@@ -3535,16 +3535,31 @@
     "icone_url": "https://cdn2.steamgriddb.com/icon_thumb/b8ecfabe8ac820a0a93b1b323efb29b9.png",
     "capa_url": "https://cdn2.steamgriddb.com/thumb/8b4e745e11dd382f4cf9851459e79e8a.jpg",
     "review": "Condição pra platina: Todas as conquistas<br><br>Review:"
-  }
+     },{
+  "titulo": "Reventure",
+    "ano_lancamento": 2026,
+    "dificuldade": "B",
+    "data_zerado": 2019,
+    "conquistas_percentual": "10/10",
+    "nota_pessoal": 7,
+    "generos": [ 
+      "Vários Finais",
+      "Gráficos Pixelados",
+      "2D Clássico",
+      "Plataforma",
+      "Indie",
+      "Aventura"
+    ],
+    "status": "Zerado",
+    "plataforma": "PC",
+    "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/900270/57c6002a51d19bf33511c39d9efdaf8503951080.jpg",
+    "capa_url": "https://shared.steamstatic.com/store_item_assets/steam/apps/900270/library_600x900_2x.jpg?t=1725529664",
+    "review": "Condição pra platina: Todas as conquistas<br><br>Review:"
+  
 
 
 
 
 ]
 
-
-
-
-
-]
 
