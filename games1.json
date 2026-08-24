@@ -2877,7 +2877,7 @@
     "ano_lancamento": 2025,
     "dificuldade": "AA",
     "data_zerado": 2026,
-    "conquistas_percentual": "54/54",
+    "conquistas_percentual": "64/64",
     "nota_pessoal": 10,
     "generos": [
       "Aventura",
@@ -3537,9 +3537,9 @@
     "review": "Condição pra platina: Todas as conquistas<br><br>Review:"
      },{
   "titulo": "Reventure",
-    "ano_lancamento": 2026,
+    "ano_lancamento": 2019,
     "dificuldade": "B",
-    "data_zerado": 2019,
+    "data_zerado": 2026,
     "conquistas_percentual": "10/10",
     "nota_pessoal": 7,
     "generos": [ 
@@ -3554,6 +3554,46 @@
     "plataforma": "PC",
     "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/900270/57c6002a51d19bf33511c39d9efdaf8503951080.jpg",
     "capa_url": "https://shared.steamstatic.com/store_item_assets/steam/apps/900270/library_600x900_2x.jpg?t=1725529664",
+    "review": "Condição pra platina: Todas as conquistas<br><br>Review:"
+      },{
+  "titulo": "Human Fall Flat",
+    "ano_lancamento": 2016,
+    "dificuldade": "B",
+    "data_zerado": 2026,
+    "conquistas_percentual": "23/151",
+    "nota_pessoal": 6,
+    "generos": [ 
+      "Puzzle",
+      "Multiplayer",
+      "Engraçado",
+      "Plataforma",
+      "Física",
+      "Ragdoll"
+    ],
+    "status": "Zerado",
+    "plataforma": "PC",
+    "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/477160/15c6f6a4d69633a63ee410b24a2417f16d803b06.jpg",
+    "capa_url": "https://shared.steamstatic.com/store_item_assets/steam/apps/477160/9cf0052110def5bfc3b98bc8d48d1d78da9c3aa2/library_capsule_2x.jpg?t=1761832528",
+    "review": "Condição pra platina: Todas as conquistas<br><br>Review:"
+     },{
+  "titulo": "SOS OPS!",
+    "ano_lancamento": 2023,
+    "dificuldade": "B",
+    "data_zerado": 2026,
+    "conquistas_percentual": "3/38",
+    "nota_pessoal": 5,
+    "generos": [ 
+      "Cooperativo",
+      "Multiplayer",
+      "Engraçado",
+      "Terceira Pessoa",
+      "Física",
+      "Ragdoll"
+    ],
+    "status": "Zerado",
+    "plataforma": "PC",
+    "icone_url": "https://images.gog-statics.com/72593dc3975498b4a25e2f77320e18d7bd42282ca9065538ed46c50c8df14738.png",
+    "capa_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2475460/78365e5a67453c45116b52b9cb00a5f8e5ef1fbe/library_capsule_2x.jpg?t=1782905750",
     "review": "Condição pra platina: Todas as conquistas<br><br>Review:"
      }
 
