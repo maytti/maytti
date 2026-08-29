@@ -3595,6 +3595,26 @@
     "icone_url": "https://images.gog-statics.com/72593dc3975498b4a25e2f77320e18d7bd42282ca9065538ed46c50c8df14738.png",
     "capa_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2475460/78365e5a67453c45116b52b9cb00a5f8e5ef1fbe/library_capsule_2x.jpg?t=1782905750",
     "review": "Condição pra platina: Todas as conquistas<br><br>Review:"
+     },{
+  "titulo": "Baldur's Gate 3",
+    "ano_lancamento": 2023,
+    "dificuldade": "B",
+    "data_zerado": 2026,
+    "conquistas_percentual": "33/54",
+    "nota_pessoal": 10,
+    "generos": [ 
+      "RPG",
+      "Combate em Turnos",
+      "Boa Trama",
+      "Estratégia",
+      "Fantasia",
+      "Aventura"
+    ],
+    "status": "Zerado",
+    "plataforma": "PC",
+    "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/1086940/d866cae7ea1e471fdbc206287111f1b642373bd9.jpg",
+    "capa_url": "https://shared.steamstatic.com/store_item_assets/steam/apps/1086940/library_600x900_2x.jpg?t=1748345785",
+    "review": "Condição pra platina: Todas as conquistas<br><br>Review:"
      }
 
 
