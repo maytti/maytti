@@ -3669,8 +3669,94 @@
     "icone_url": "https://cdn2.steamgriddb.com/icon_thumb/89dafaf4e16185424fa93241c009fa52.png",
     "capa_url": "https://shared.steamstatic.com/store_item_assets/steam/apps/5084260/4748990791e8780d09c10cc532ad5c68b0cde8d1/library_capsule_2x.jpg?t=1786288445",
     "review": "Condição pra platina: Todas as conquistas<br><br>Review:"
-     }
-
+    },{
+  "titulo": "Arctic Eggs",
+    "ano_lancamento": 2024,
+    "dificuldade": "B",
+    "data_zerado": 2026,
+    "conquistas_percentual": "16/16",
+    "nota_pessoal": 7,
+    "generos": [ 
+      "Física",
+      "Surrealista",
+      "Culinária",
+      "Atmosférico",
+      "Exploração"
+    ],
+    "status": "Zerado",
+    "plataforma": "PC",
+    "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/2763670/21ff0dbd49ad6b14730a8667373aa3129bb6e0ce.ico",
+    "capa_url": "https://shared.steamstatic.com/store_item_assets/steam/apps/2763670/library_600x900_2x.jpg?t=1751896957",
+    "review": "Condição pra platina: Todas as conquistas<br><br>Review:"
+      },{
+  "titulo": "Terrors to Unveil - Intrusion",
+    "ano_lancamento": 2025,
+    "dificuldade": "C",
+    "data_zerado": 2026,
+    "conquistas_percentual": "5/5",
+    "nota_pessoal": 2,
+    "generos": [ 
+      "Terror",
+      "Terror Psicológico",
+      "Aventura"
+    ],
+    "status": "Zerado",
+    "plataforma": "PC",
+    "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/3716700/c22cce2b1e8382e19fe70393e20488c8913dcdc3.ico",
+    "capa_url": "https://shared.steamstatic.com/store_item_assets/steam/apps/3716700/a2fa1f698ef2e1c2c44e17458d8d0f57e35abd9a/library_600x900_2x.jpg?t=1748700683",
+    "review": "Condição pra platina: Todas as conquistas<br><br>Review:"
+        },{
+  "titulo": "Terrors to Unveil - Day Off",
+    "ano_lancamento": 2025,
+    "dificuldade": "B",
+    "data_zerado": 2026,
+    "conquistas_percentual": "8/8",
+    "nota_pessoal": 3,
+    "generos": [ 
+      "Terror",
+      "Terror Psicológico",
+      "Aventura"
+    ],
+    "status": "Zerado",
+    "plataforma": "PC",
+    "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/3587490/f9f89327f1da36e8323bea0eabd8e9813b89ff19.ico",
+    "capa_url": "https://shared.steamstatic.com/store_item_assets/steam/apps/3587490/0f5ae3f56a4c379347f5e2b744acf6b23647c345/library_600x900_2x.jpg?t=1763734904",
+    "review": "Condição pra platina: Todas as conquistas<br><br>Review:"
+   },{
+  "titulo": "Cactus Simulator",
+    "ano_lancamento": 2022,
+    "dificuldade": "C",
+    "data_zerado": 2026,
+    "conquistas_percentual": "3/3",
+    "nota_pessoal": 2,
+    "generos": [ 
+      "Simulator",
+      "Casual"
+    ],
+    "status": "Zerado",
+    "plataforma": "PC",
+    "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/1883580/849ffb32b4bac45d84cf6018701c7bbba9d22d3b.jpg",
+    "capa_url": "https://shared.steamstatic.com/store_item_assets/steam/apps/1883580/library_600x900_2x.jpg?t=1738677923",
+    "review": "Condição pra platina: Todas as conquistas<br><br>Review:"
+  },{
+  "titulo": "MECCHA CHAMELEON",
+    "ano_lancamento": 2026,
+    "dificuldade": "B",
+    "data_zerado": 2026,
+    "conquistas_percentual": "",
+    "nota_pessoal": 8,
+    "generos": [ 
+      "Multiplayer",
+      "Casual",
+      "Engraçado",
+      "Arte"
+    ],
+    "status": "Zerado",
+    "plataforma": "PC",
+    "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/4704690/fbef288370f6ae51cb0a5066d7fb13d26147c94a.jpg",
+    "capa_url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4704690/ac3c3c6d61e772101de5f95ac08b425e1b878ca8/library_capsule_2x.jpg?t=1781024496",
+    "review": "Condição pra platina: Todas as conquistas<br><br>Review:"
+  }
 
 
 
