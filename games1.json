@@ -3756,6 +3756,24 @@
     "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/4704690/fbef288370f6ae51cb0a5066d7fb13d26147c94a.jpg",
     "capa_url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4704690/ac3c3c6d61e772101de5f95ac08b425e1b878ca8/library_capsule_2x.jpg?t=1781024496",
     "review": "Condição pra platina: Todas as conquistas<br><br>Review:"
+  },{
+  "titulo": "Play Things",
+    "ano_lancamento": 2026,
+    "dificuldade": "B",
+    "data_zerado": 2026,
+    "conquistas_percentual": "4/4",
+    "nota_pessoal": 6,
+    "generos": [ 
+      "Terror",
+      "Terror Psicológico",
+      "Atmosférico",
+      "Simulator"
+    ],
+    "status": "Zerado",
+    "plataforma": "PC",
+    "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/4635840/2ee4c1c9812e45fe0027530fde7a4809ab6b390f.jpg",
+    "capa_url": "https://shared.steamstatic.com/store_item_assets/steam/apps/4635840/785ca6513c07159081b9929d5853a48f9fdbf604/library_capsule_2x.jpg?t=1776967726",
+    "review": "Condição pra platina: Todas as conquistas<br><br>Review:"
   }
 
 
