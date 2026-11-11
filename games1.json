@@ -2845,7 +2845,7 @@
     "ano_lancamento": 2025,
     "dificuldade": "C",
     "data_zerado": 2026,
-    "conquistas_percentual": "18/18",
+    "conquistas_percentual": "54/54",
     "nota_pessoal": 7,
     "generos": [
       "Simulator",
@@ -3813,6 +3813,65 @@
     "plataforma": "PC",
     "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/1061090/2278d0cb4b408a17929d662ca4845c56027d4c44.ico",
     "capa_url": "https://shared.steamstatic.com/store_item_assets/steam/apps/1061090/library_600x900_2x.jpg?t=1708096826",
+    "review": "Condição pra platina: Todas as conquistas<br><br>Review:"
+  },{
+  "titulo": "RV There Yet?",
+    "ano_lancamento": 2025,
+    "dificuldade": "A",
+    "data_zerado": 2026,
+    "conquistas_percentual": "25/96",
+    "nota_pessoal": 9,
+    "generos": [ 
+      "Cooperativo",
+      "Engraçado",
+      "Multiplayer",
+      "Aventura",
+      "Física",
+      "Direção",
+      "Exploração"
+    ],
+    "status": "Zerado",
+    "plataforma": "PC",
+    "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/3949040/cd01f1daaaa3fb022e9913dc2d66a23c5091b5d5.ico",
+    "capa_url": "https://shared.steamstatic.com/store_item_assets/steam/apps/3949040/701632e4a84f8378c23fdf18ae127cb6a0f3f904/library_capsule_2x.jpg?t=1760357769",
+    "review": "Condição pra platina: Todas as conquistas<br><br>Review:"
+  },{
+  "titulo": "PlateUp!",
+    "ano_lancamento": 2022,
+    "dificuldade": "A",
+    "data_zerado": 2026,
+    "conquistas_percentual": "8/26",
+    "nota_pessoal": 7,
+    "generos": [ 
+      "Cooperativo",
+      "Simulator",
+      "Multiplayer",
+      "Culinária",
+      "Gerenciamento"
+    ],
+    "status": "Zerado",
+    "plataforma": "PC",
+    "icone_url": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/1599600/8ab51cc26c5b54c8858bf95538d71f728b460611.jpg",
+    "capa_url": "https://shared.steamstatic.com/store_item_assets/steam/apps/1599600/0f2584e9fc11d2e2e0dc3aeb246d4c3f3deec8c3/library_capsule_2x.jpg?t=1757944607",
+    "review": "Condição pra platina: Todas as conquistas<br><br>Review:"
+  },{
+  "titulo": "Bonanza Bros.",
+    "ano_lancamento": 1990,
+    "dificuldade": "AA",
+    "data_zerado": 2026,
+    "conquistas_percentual": "100%",
+    "nota_pessoal": 7,
+    "generos": [ 
+      "Cooperativo",
+      "Shooter",
+      "Multiplayer",
+      "Plataforma",
+      "Stealth"
+    ],
+    "status": "Zerado",
+    "plataforma": "Sega Genesis (Emulador)",
+    "icone_url": "https://cdn2.steamgriddb.com/icon_thumb/ea3c1b0d0590eaf1302b5b20231ea908.png",
+    "capa_url": "https://cdn2.steamgriddb.com/thumb/c717cac701d47e5f280367cfc5ce279e.jpg",
     "review": "Condição pra platina: Todas as conquistas<br><br>Review:"
   }
 
