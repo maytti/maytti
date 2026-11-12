@@ -1834,7 +1834,8 @@
     "nota_pessoal": 11.0,
     "generos": [
       "Puzzle",
-      "Exploração"
+      "Exploração",
+      "Indie"
     ],
     "status": "Zerado",
     "plataforma": "PC",
@@ -3779,7 +3780,7 @@
     "ano_lancamento": 2025,
     "dificuldade": "B",
     "data_zerado": 2026,
-    "conquistas_percentual": "30/60",
+    "conquistas_percentual": "60/60",
     "nota_pessoal": 9,
     "generos": [ 
       "Terror",
@@ -3859,7 +3860,7 @@
     "ano_lancamento": 1990,
     "dificuldade": "AA",
     "data_zerado": 2026,
-    "conquistas_percentual": "100%",
+    "conquistas_percentual": "100%/100%",
     "nota_pessoal": 7,
     "generos": [ 
       "Cooperativo",
